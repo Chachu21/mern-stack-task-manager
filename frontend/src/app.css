@@ -1,0 +1,65 @@
+.app{
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-container{
+  
+  width: 75%;
+  margin: 50% auto;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+.task-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.task-form{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.task-form input{
+  width: 100%;
+  border: 1px solid grey;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.task-form button{
+background-color: purple;
+color: white;
+  width: 60px;
+font-size: 18px;
+height: 43px;
+
+}
+.list_of{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task{
+   background-color: rgb(210, 208, 208);
+   color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 10px solid rgb(255, 98, 0);
+  font-size: 20px;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+ 
+  
+}
